@@ -1,0 +1,8 @@
+name: Build Success Message
+on: [push]
+jobs: 
+  build: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print Success
+        run: echo "Build Successfull! the code was pushed"
